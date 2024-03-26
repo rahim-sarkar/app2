@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import joblib
 import sklearn
-trf = pickle.load(open("IPl2/trf.pkl","rb"))
+trf = pickle.load(open("IPL2/trf.pkl","rb"))
 model = joblib.load("IPL2/joblib.joblib")
 
 teams = ['Sunrisers Hyderabad',
